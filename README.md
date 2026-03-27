@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./assets/logo.png" alt="MouseCombo Logo" width="140" />
 </p>
-<h1 align="center">PaperlikeMenu</h1>
+<h1 align="center">MouseCombo</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/_-macOS_13+-black?logo=apple" />
   <img src="https://img.shields.io/github/v/release/WooHooDai/MouseCombo?logo=github" />
@@ -13,7 +13,7 @@
 
 <details>
   <summary>点击查看30s视频演示（带音效）</summary>
-  <video src="./assets/screenshots/操作展示.mp4" controls width="100%"></video>
+  <video src="https://github.com/user-attachments/assets/2186fe50-916c-48a3-a786-62bda124e382" controls width="100%"></video>
 </details>
 
 ![操作展示](./assets/screenshots/操作展示.gif)
