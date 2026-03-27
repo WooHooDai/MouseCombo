@@ -6,18 +6,22 @@
   <img src="https://img.shields.io/badge/_-macOS_13+-black?logo=apple" />
   <img src="https://img.shields.io/github/v/release/WooHooDai/MouseCombo?logo=github" />
 </p>
+<p align="center">
+  <a href="https://github.com/WooHooDai/MouseCombo/releases/latest/download/MouseCombo.dmg">
+    <img src="https://img.shields.io/badge/立即下载-最新版本-1E883E?logo=apple&style=for-the-badge" />
+  </a>
+</p>
 
 将**鼠标组合**映射为**键盘快捷键**，实现单手高效操作⚡️。
 
 全局助记浮窗🧠和触发音效🎵，让使用体验像是游戏金手指/搓连招。
 
 <details>
-  <summary>点击查看30s视频演示（带音效）</summary>
+  <summary><i>点击查看30s视频演示（带音效）</i></summary>
   <video src="https://github.com/user-attachments/assets/2186fe50-916c-48a3-a786-62bda124e382" controls width="100%"></video>
 </details>
 
 ![操作展示](./assets/screenshots/操作展示.gif)
-
 
 ## 核心特点
 
@@ -35,6 +39,35 @@
 |  按住中键 + 连续滚轮↑/↓  |       cmd+- / cmd+=       |    无    |          连续缩放页面           |
 | 按住右键 + 左键1次/2次/3次 | cmd+c / cmd+v / cmd+opt+v |  Finder  |     复制 / 移动（剪切）     |
 |  按住右键 + 滚轮↑/↓  | cmd+shift+[ / cmd+shift+] |  Safari  | 上一个标签页 / 下一个标签页 |
+
+## 下载&安装
+
+1. 前往 [最新版本发布页](https://github.com/WooHooDai/MouseCombo/releases/latest) 下载 `MouseCombo.dmg`
+2. 打开 `MouseCombo.dmg`
+3. 将 `MouseCombo.app` 拖拽到 `Applications` 文件夹
+4. 从“应用程序”中启动 `MouseCombo`
+
+### 常见问题
+
+<details>
+  <summary><b>提示“无法验证开发者”或“无法检查恶意软件”</b></summary>
+  <p>1. 点击弹窗的“取消”。</p>
+  <p>2. 打开 `系统设置 (System Settings) -> 隐私与安全性 (Privacy & Security)`。</p>
+  <p>3. 向下滑动找到`安全性`板块，看到`“XXX 已被阻止...”`提示，点击旁边的 `“仍要打开” (Open Anyway)`。</p>
+  <p>4. 在二次确认弹窗中点击“打开”，之后即可正常使用。</p>
+</details>
+
+<details>
+  <summary><b>提示“已损坏，无法打开”或“移到废纸篓”</b></summary>
+  <p>1. 打开 `终端 (Terminal)`（在 Launchpad 中搜索“终端”）。</p>
+  <p>2. 输入以下命令（末尾带空格，不要按回车）：
+   ```bash
+   sudo xattr -rd com.apple.quarantine 
+   ```
+  </p>
+  <p>3. 将“应用程序”文件夹里的 `MouseCombo.app` 拖入终端窗口，路径会自动补全。</p>
+  <p>4. 按下 回车键，输入 开机密码（输入时不显示字符），再次回车即可。</p>
+</details>
 
 ## 应用截图
 | 主界面 | 助记浮窗 | 设置界面 |
