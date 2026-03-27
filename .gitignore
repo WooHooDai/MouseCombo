@@ -1,0 +1,10 @@
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略环境变量（非常重要）
+.env
+.env.*
+
+# 忽略编辑器配置
+.vscode/
