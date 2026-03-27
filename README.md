@@ -3,12 +3,10 @@
 </p>
 <h1 align="center">MouseCombo</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/_-macOS_13+-black?logo=apple" />
-  <img src="https://img.shields.io/github/v/release/WooHooDai/MouseCombo?logo=github" />
-</p>
-<p align="center">
+  <img src="https://img.shields.io/badge/macOS-13+-black?logo=apple&style=flat" />
+  <img src="https://img.shields.io/github/v/release/WooHooDai/MouseCombo?logo=github&style=flat" />
   <a href="https://github.com/WooHooDai/MouseCombo/releases/latest/download/MouseCombo.dmg">
-    <img src="https://img.shields.io/badge/立即下载-最新版本-1E883E?logo=apple&style=for-the-badge" />
+    <img src="https://img.shields.io/badge/⬇️立即下载-最新版本-1E883E?style=flat" />
   </a>
 </p>
 
